@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // Find the View that shows the numbers category
-        TextView numbers = (TextView) findViewById(R.id.numbers);
+        TextView numbers = findViewById(R.id.numbers);
 
         // Set a click listener on that View
         numbers.setOnClickListener(new View.OnClickListener() {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the colors category
-        TextView colors = (TextView) findViewById(R.id.colors);
+        TextView colors = findViewById(R.id.colors);
 
         // Set a click listener on that View
         colors.setOnClickListener(new View.OnClickListener() {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the View that shows the phrases category
-        TextView phrases = (TextView) findViewById(R.id.phrases);
+        TextView phrases = findViewById(R.id.phrases);
 
         // Set a click listener on that View
         phrases.setOnClickListener(new View.OnClickListener() {
@@ -51,19 +51,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the family mambers category
-        TextView familyMembers = (TextView) findViewById(R.id.family);
-
-        // Set a click listener on that View
-        familyMembers.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the family members View is clicked on.
-            @Override
-            public void onClick(View view) {
-                Intent familyMembersIntent = new Intent(MainActivity.this, FamilyMembersActivity.class);
-                startActivity(familyMembersIntent);
-            }
-        });
-
-    }
+        }
 
 }
