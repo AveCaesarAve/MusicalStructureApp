@@ -35,13 +35,13 @@ public class PlaylistAdapter extends ArrayAdapter<Playing> {
         Playing currentPlaying = getItem(position);
 
         // Find the TextView in the playlist_item.xml.xml layout with the ID version_name
-        TextView miwokTextView = (TextView) listItemView.findViewById(R.id.Artist);
+        TextView miwokTextView = listItemView.findViewById(R.id.Artist);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
         miwokTextView.setText(currentPlaying.getDefaultSong());
 
         // Find the TextView in the playlist_item.xml.xml layout with the ID version_number
-        TextView defaultTextView = (TextView) listItemView.findViewById(R.id.Song);
+        TextView defaultTextView = listItemView.findViewById(R.id.Song);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
         defaultTextView.setText(currentPlaying.getDefaultArtist());

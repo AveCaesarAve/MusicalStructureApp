@@ -1,23 +1,21 @@
 package com.example.android.musicalstructureapp;
 
 /**
- * {@link Playing} represents a vocabulary word that the user wants to learn.
- * It contains a default translation and a Miwok translation for that word.
+ * {@link Playing} represents a playlist item that the user wants to listen to.
+ * It contains a song name and artist name for that playlist item.
  */
 public class Playing {
 
-    /** Default translation for the word */
+    /** Default artist name for playlist item */
     private String mArtistName;
 
-    /** Miwok translation for the word */
+    /** Default song name for playlist item */
     private String mSongName;
 
     /**
-     * Create a new com.example.android.miwok.Playing object.
-     *
-     * @param defaultArtist is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param defaultSong is the word in the Miwok language
+     * Create a new com.example.android.musicalstructureapp.Playing object.
+     * @param defaultArtist is the artist name
+     * @param defaultSong is the song name
      */
     public Playing(String defaultArtist, String defaultSong) {
         mArtistName = defaultArtist;
@@ -25,14 +23,14 @@ public class Playing {
     }
 
     /**
-     * Get the default translation of the word.
+     * Get the default artist name for playlist item.
      */
     public String getDefaultArtist() {
         return mArtistName;
     }
 
     /**
-     * Get the Miwok translation of the word.
+     * Get the default song name for playlist item.
      */
     public String getDefaultSong() {
         return mSongName;
