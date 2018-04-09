@@ -13,40 +13,40 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // Find the View that shows the numbers category
-        TextView numbers = findViewById(R.id.numbers);
+        TextView numbers = findViewById(R.id.audiobooks);
 
         // Set a click listener on that View
         numbers.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
+                Intent numbersIntent = new Intent(MainActivity.this, AudiobooksActivity.class);
                 startActivity(numbersIntent);
             }
         });
 
-        // Find the View that shows the colors category
-        TextView colors = findViewById(R.id.colors);
+        // Find the View that shows the podcast category
+        TextView colors = findViewById(R.id.podcasts);
 
         // Set a click listener on that View
         colors.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the colors View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
+                Intent colorsIntent = new Intent(MainActivity.this, PodcastActivity.class);
                 startActivity(colorsIntent);
             }
         });
 
-        // Find the View that shows the phrases category
-        TextView phrases = findViewById(R.id.phrases);
+        // Find the View that shows the songs category
+        TextView phrases = findViewById(R.id.songs);
 
         // Set a click listener on that View
         phrases.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the phrases View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent phrasesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
+                Intent phrasesIntent = new Intent(MainActivity.this, SongsActivity.class);
                 startActivity(phrasesIntent);
             }
         });

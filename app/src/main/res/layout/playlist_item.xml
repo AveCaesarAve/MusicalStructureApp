@@ -6,14 +6,14 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/word1"
+        android:id="@+id/Artist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingLeft="16dp"
         android:paddingTop="16dp" />
 
     <TextView
-        android:id="@+id/word2"
+        android:id="@+id/Song"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingLeft="16dp" />

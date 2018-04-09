@@ -5,10 +5,10 @@
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_phrases">Songs</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulplayingsords for colors [CHAR LIMIT=20] -->
     <string name="category_colors">Podcasts</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulplayingsords for numbers [CHAR LIMIT=20] -->
     <string name="category_numbers">Audiobooks</string>
 
 </resources>

@@ -10,19 +10,19 @@
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
     <TextView
-        android:id="@+id/numbers"
+        android:id="@+id/audiobooks"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="@string/category_numbers" />
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/podcasts"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="@string/category_colors" />
 
     <TextView
-        android:id="@+id/phrases"
+        android:id="@+id/songs"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
