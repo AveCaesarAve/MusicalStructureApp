@@ -11,4 +11,8 @@
     <!-- Category name for the vocabulplayingsords for numbers [CHAR LIMIT=20] -->
     <string name="category_numbers">Audiobooks</string>
 
+    <!-- Description of image in now_playing_item.xml [CHAR LIMIT=20] -->
+    <string name="image_cover">Cover image of played item</string>
+
+
 </resources>

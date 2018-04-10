@@ -18,29 +18,31 @@
         tools:context="com.example.android.musicalstructureapp.MainActivity">
 
         <ImageView
-            android:id="@+id/Song_Name"
+            android:id="@+id/SongImage"
             android:layout_width="wrap_content"
             android:layout_height="250dp"
-            android:contentDescription="@string/mainImage"
+            android:contentDescription="@string/image_cover"
             android:scaleType="centerCrop"
-            android:src="@drawable/buschenschrank1" />
+            android:src="@drawable/ios7_musicicon"
+            />
 
         <TextView
-            android:id="@+id/Artist_Name"
+            android:id="@+id/ArtistName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="@string/introduction"
+            android:text="Artist text from item list XXXXXXXXXXX"
             android:textAlignment="center"
             android:textSize="14sp"
             android:textStyle="italic"
             android:textColor="@color/category_phrases"/>
 
         <TextView
+            android:id="@+id/SongName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="@string/company"
+            android:text="Song text from item list XXXXXXXXXXX"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/category_phrases"/>
